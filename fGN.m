@@ -1,10 +1,10 @@
 function f=fGN(N,H,h)
 
-  %离散点数
+
      
 v=ceil(log(N)/log(2));
 m=2*2^v;
-% 相关函数矩阵c  gamma(t-s)=1/2*D^2*{(t-s-1)^2+(t-s+1)^2-2*(t-s)^2}
+
 c=zeros(1,m);
 
 for j=0:m-1
